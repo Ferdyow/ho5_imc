@@ -190,6 +190,12 @@ ho5_imc_SOURCE_DIR:STATIC=/home/ferdy/lststools/ho5_imc
 //Dependencies for target
 imc_LIB_DEPENDS:STATIC=
 
+//Dependencies for target
+say-hello_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
+udp_LIB_DEPENDS:STATIC=
+
 
 ########################
 # INTERNAL cache entries

@@ -1,3 +1,6 @@
-/home/ferdy/lststools/ho5_imc/CMakeFiles/rebuild_cache.dir
-/home/ferdy/lststools/ho5_imc/CMakeFiles/Ho5.dir
 /home/ferdy/lststools/ho5_imc/CMakeFiles/edit_cache.dir
+/home/ferdy/lststools/ho5_imc/CMakeFiles/HomeworkExercise.dir
+/home/ferdy/lststools/ho5_imc/CMakeFiles/rebuild_cache.dir
+/home/ferdy/lststools/ho5_imc/CMakeFiles/imc.dir
+/home/ferdy/lststools/ho5_imc/CMakeFiles/udp.dir
+/home/ferdy/lststools/ho5_imc/CMakeFiles/say-hello.dir

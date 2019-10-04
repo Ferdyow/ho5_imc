@@ -42,5 +42,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Ho5.dir/DependInfo.cmake"
+  "CMakeFiles/HomeworkExercise.dir/DependInfo.cmake"
+  "CMakeFiles/imc.dir/DependInfo.cmake"
+  "CMakeFiles/udp.dir/DependInfo.cmake"
+  "CMakeFiles/say-hello.dir/DependInfo.cmake"
   )

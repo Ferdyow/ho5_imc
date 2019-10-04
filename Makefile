@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/ferdy/lststools/ho5_imc
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,44 +111,164 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Ho5
+# Target rules for targets named HomeworkExercise
 
 # Build rule for target.
-Ho5: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Ho5
-.PHONY : Ho5
+HomeworkExercise: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HomeworkExercise
+.PHONY : HomeworkExercise
 
 # fast build rule for target.
-Ho5/fast:
-	$(MAKE) -f CMakeFiles/Ho5.dir/build.make CMakeFiles/Ho5.dir/build
-.PHONY : Ho5/fast
+HomeworkExercise/fast:
+	$(MAKE) -f CMakeFiles/HomeworkExercise.dir/build.make CMakeFiles/HomeworkExercise.dir/build
+.PHONY : HomeworkExercise/fast
 
-Ho5.o: Ho5.cpp.o
+#=============================================================================
+# Target rules for targets named imc
 
-.PHONY : Ho5.o
+# Build rule for target.
+imc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 imc
+.PHONY : imc
+
+# fast build rule for target.
+imc/fast:
+	$(MAKE) -f CMakeFiles/imc.dir/build.make CMakeFiles/imc.dir/build
+.PHONY : imc/fast
+
+#=============================================================================
+# Target rules for targets named udp
+
+# Build rule for target.
+udp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 udp
+.PHONY : udp
+
+# fast build rule for target.
+udp/fast:
+	$(MAKE) -f CMakeFiles/udp.dir/build.make CMakeFiles/udp.dir/build
+.PHONY : udp/fast
+
+#=============================================================================
+# Target rules for targets named say-hello
+
+# Build rule for target.
+say-hello: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 say-hello
+.PHONY : say-hello
+
+# fast build rule for target.
+say-hello/fast:
+	$(MAKE) -f CMakeFiles/say-hello.dir/build.make CMakeFiles/say-hello.dir/build
+.PHONY : say-hello/fast
+
+IMC/Base/Factory.o: IMC/Base/Factory.cpp.o
+
+.PHONY : IMC/Base/Factory.o
 
 # target to build an object file
-Ho5.cpp.o:
-	$(MAKE) -f CMakeFiles/Ho5.dir/build.make CMakeFiles/Ho5.dir/Ho5.cpp.o
-.PHONY : Ho5.cpp.o
+IMC/Base/Factory.cpp.o:
+	$(MAKE) -f CMakeFiles/imc.dir/build.make CMakeFiles/imc.dir/IMC/Base/Factory.cpp.o
+.PHONY : IMC/Base/Factory.cpp.o
 
-Ho5.i: Ho5.cpp.i
+IMC/Base/Factory.i: IMC/Base/Factory.cpp.i
 
-.PHONY : Ho5.i
+.PHONY : IMC/Base/Factory.i
 
 # target to preprocess a source file
-Ho5.cpp.i:
-	$(MAKE) -f CMakeFiles/Ho5.dir/build.make CMakeFiles/Ho5.dir/Ho5.cpp.i
-.PHONY : Ho5.cpp.i
+IMC/Base/Factory.cpp.i:
+	$(MAKE) -f CMakeFiles/imc.dir/build.make CMakeFiles/imc.dir/IMC/Base/Factory.cpp.i
+.PHONY : IMC/Base/Factory.cpp.i
 
-Ho5.s: Ho5.cpp.s
+IMC/Base/Factory.s: IMC/Base/Factory.cpp.s
 
-.PHONY : Ho5.s
+.PHONY : IMC/Base/Factory.s
 
 # target to generate assembly for a file
-Ho5.cpp.s:
-	$(MAKE) -f CMakeFiles/Ho5.dir/build.make CMakeFiles/Ho5.dir/Ho5.cpp.s
-.PHONY : Ho5.cpp.s
+IMC/Base/Factory.cpp.s:
+	$(MAKE) -f CMakeFiles/imc.dir/build.make CMakeFiles/imc.dir/IMC/Base/Factory.cpp.s
+.PHONY : IMC/Base/Factory.cpp.s
+
+UDP/DatagramSocket.o: UDP/DatagramSocket.cpp.o
+
+.PHONY : UDP/DatagramSocket.o
+
+# target to build an object file
+UDP/DatagramSocket.cpp.o:
+	$(MAKE) -f CMakeFiles/udp.dir/build.make CMakeFiles/udp.dir/UDP/DatagramSocket.cpp.o
+.PHONY : UDP/DatagramSocket.cpp.o
+
+UDP/DatagramSocket.i: UDP/DatagramSocket.cpp.i
+
+.PHONY : UDP/DatagramSocket.i
+
+# target to preprocess a source file
+UDP/DatagramSocket.cpp.i:
+	$(MAKE) -f CMakeFiles/udp.dir/build.make CMakeFiles/udp.dir/UDP/DatagramSocket.cpp.i
+.PHONY : UDP/DatagramSocket.cpp.i
+
+UDP/DatagramSocket.s: UDP/DatagramSocket.cpp.s
+
+.PHONY : UDP/DatagramSocket.s
+
+# target to generate assembly for a file
+UDP/DatagramSocket.cpp.s:
+	$(MAKE) -f CMakeFiles/udp.dir/build.make CMakeFiles/udp.dir/UDP/DatagramSocket.cpp.s
+.PHONY : UDP/DatagramSocket.cpp.s
+
+hello.o: hello.cpp.o
+
+.PHONY : hello.o
+
+# target to build an object file
+hello.cpp.o:
+	$(MAKE) -f CMakeFiles/say-hello.dir/build.make CMakeFiles/say-hello.dir/hello.cpp.o
+.PHONY : hello.cpp.o
+
+hello.i: hello.cpp.i
+
+.PHONY : hello.i
+
+# target to preprocess a source file
+hello.cpp.i:
+	$(MAKE) -f CMakeFiles/say-hello.dir/build.make CMakeFiles/say-hello.dir/hello.cpp.i
+.PHONY : hello.cpp.i
+
+hello.s: hello.cpp.s
+
+.PHONY : hello.s
+
+# target to generate assembly for a file
+hello.cpp.s:
+	$(MAKE) -f CMakeFiles/say-hello.dir/build.make CMakeFiles/say-hello.dir/hello.cpp.s
+.PHONY : hello.cpp.s
+
+homeworkExercise.o: homeworkExercise.cpp.o
+
+.PHONY : homeworkExercise.o
+
+# target to build an object file
+homeworkExercise.cpp.o:
+	$(MAKE) -f CMakeFiles/HomeworkExercise.dir/build.make CMakeFiles/HomeworkExercise.dir/homeworkExercise.cpp.o
+.PHONY : homeworkExercise.cpp.o
+
+homeworkExercise.i: homeworkExercise.cpp.i
+
+.PHONY : homeworkExercise.i
+
+# target to preprocess a source file
+homeworkExercise.cpp.i:
+	$(MAKE) -f CMakeFiles/HomeworkExercise.dir/build.make CMakeFiles/HomeworkExercise.dir/homeworkExercise.cpp.i
+.PHONY : homeworkExercise.cpp.i
+
+homeworkExercise.s: homeworkExercise.cpp.s
+
+.PHONY : homeworkExercise.s
+
+# target to generate assembly for a file
+homeworkExercise.cpp.s:
+	$(MAKE) -f CMakeFiles/HomeworkExercise.dir/build.make CMakeFiles/HomeworkExercise.dir/homeworkExercise.cpp.s
+.PHONY : homeworkExercise.cpp.s
 
 # Help Target
 help:
@@ -156,12 +276,24 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... Ho5"
 	@echo "... edit_cache"
-	@echo "... Ho5.o"
-	@echo "... Ho5.i"
-	@echo "... Ho5.s"
+	@echo "... HomeworkExercise"
+	@echo "... rebuild_cache"
+	@echo "... imc"
+	@echo "... udp"
+	@echo "... say-hello"
+	@echo "... IMC/Base/Factory.o"
+	@echo "... IMC/Base/Factory.i"
+	@echo "... IMC/Base/Factory.s"
+	@echo "... UDP/DatagramSocket.o"
+	@echo "... UDP/DatagramSocket.i"
+	@echo "... UDP/DatagramSocket.s"
+	@echo "... hello.o"
+	@echo "... hello.i"
+	@echo "... hello.s"
+	@echo "... homeworkExercise.o"
+	@echo "... homeworkExercise.i"
+	@echo "... homeworkExercise.s"
 .PHONY : help
 
 

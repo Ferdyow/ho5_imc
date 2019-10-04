@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ferdy/lststools/ho5_imc/hello.cpp
+hello.hpp
+/home/ferdy/lststools/ho5_imc/hello.hpp
+iostream
+-
+
+/home/ferdy/lststools/ho5_imc/hello.hpp
+

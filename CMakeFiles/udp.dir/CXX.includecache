@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ferdy/lststools/ho5_imc/UDP/DatagramSocket.cpp
+DatagramSocket.h
+/home/ferdy/lststools/ho5_imc/UDP/DatagramSocket.h
+
+/home/ferdy/lststools/ho5_imc/UDP/DatagramSocket.h
+winsock2.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+unistd.h
+-
+netdb.h
+-
+string.h
+-
+
