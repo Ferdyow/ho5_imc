@@ -13,9 +13,9 @@ file(GLOB_RECURSE IMC_HEADERS "${PROJECT_SOURCE_DIR}/IMC/*.hpp")
 # create a library using all of IMC sources /  headers 
 add_library(imc ${IMC_HEADERS} ${IMC_SOURCES})
 add_library(say-hello hello.hpp hello.cpp)
-add_library(udp UDP/DatagramSocket.cpp)
+add_library(udp UDP/DatagramSocket.h UDP/DatagramSocket.cpp)
 
 # Add program to list
 add_executable(HomeworkExercise homeworkExercise.cpp)
 
-target_link_libraries(HomeworkExercise PRIVATE imc say-hello) 
+target_link_libraries(HomeworkExercise PRIVATE imc udp say-hello ) 

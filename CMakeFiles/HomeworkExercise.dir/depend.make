@@ -21,12 +21,15 @@ CMakeFiles/HomeworkExercise.dir/homeworkExercise.cpp.o: IMC/Base/String.hpp
 CMakeFiles/HomeworkExercise.dir/homeworkExercise.cpp.o: IMC/Spec/Abort.hpp
 CMakeFiles/HomeworkExercise.dir/homeworkExercise.cpp.o: IMC/Spec/Bitfields.hpp
 CMakeFiles/HomeworkExercise.dir/homeworkExercise.cpp.o: IMC/Spec/Constants.hpp
+CMakeFiles/HomeworkExercise.dir/homeworkExercise.cpp.o: IMC/Spec/EntityParameter.hpp
 CMakeFiles/HomeworkExercise.dir/homeworkExercise.cpp.o: IMC/Spec/Enumerations.hpp
 CMakeFiles/HomeworkExercise.dir/homeworkExercise.cpp.o: IMC/Spec/Header.hpp
+CMakeFiles/HomeworkExercise.dir/homeworkExercise.cpp.o: IMC/Spec/Loiter.hpp
 CMakeFiles/HomeworkExercise.dir/homeworkExercise.cpp.o: IMC/Spec/Maneuver.hpp
 CMakeFiles/HomeworkExercise.dir/homeworkExercise.cpp.o: IMC/Spec/PlanManeuver.hpp
 CMakeFiles/HomeworkExercise.dir/homeworkExercise.cpp.o: IMC/Spec/PlanSpecification.hpp
 CMakeFiles/HomeworkExercise.dir/homeworkExercise.cpp.o: IMC/Spec/PlanTransition.hpp
 CMakeFiles/HomeworkExercise.dir/homeworkExercise.cpp.o: IMC/Spec/PlanVariable.hpp
+CMakeFiles/HomeworkExercise.dir/homeworkExercise.cpp.o: IMC/Spec/SetEntityParameters.hpp
 CMakeFiles/HomeworkExercise.dir/homeworkExercise.cpp.o: UDP/DatagramSocket.h
 

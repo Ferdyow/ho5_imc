@@ -22,11 +22,14 @@ CMakeFiles/HomeworkExercise.dir/homeworkExercise.cpp.o
  IMC/Spec/Abort.hpp
  IMC/Spec/Bitfields.hpp
  IMC/Spec/Constants.hpp
+ IMC/Spec/EntityParameter.hpp
  IMC/Spec/Enumerations.hpp
  IMC/Spec/Header.hpp
+ IMC/Spec/Loiter.hpp
  IMC/Spec/Maneuver.hpp
  IMC/Spec/PlanManeuver.hpp
  IMC/Spec/PlanSpecification.hpp
  IMC/Spec/PlanTransition.hpp
  IMC/Spec/PlanVariable.hpp
+ IMC/Spec/SetEntityParameters.hpp
  UDP/DatagramSocket.h

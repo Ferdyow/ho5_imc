@@ -91,6 +91,7 @@ HomeworkExercise_EXTERNAL_OBJECTS =
 HomeworkExercise: CMakeFiles/HomeworkExercise.dir/homeworkExercise.cpp.o
 HomeworkExercise: CMakeFiles/HomeworkExercise.dir/build.make
 HomeworkExercise: libimc.a
+HomeworkExercise: libudp.a
 HomeworkExercise: libsay-hello.a
 HomeworkExercise: CMakeFiles/HomeworkExercise.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ferdy/lststools/ho5_imc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable HomeworkExercise"
