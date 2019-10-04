@@ -1,0 +1,5 @@
+/home/ferdy/lststools/ho5_imc/build/CMakeFiles/edit_cache.dir
+/home/ferdy/lststools/ho5_imc/build/CMakeFiles/HomeworkExercise.dir
+/home/ferdy/lststools/ho5_imc/build/CMakeFiles/rebuild_cache.dir
+/home/ferdy/lststools/ho5_imc/build/CMakeFiles/imc.dir
+/home/ferdy/lststools/ho5_imc/build/CMakeFiles/say-hello.dir
